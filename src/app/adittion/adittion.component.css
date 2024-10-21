@@ -1,0 +1,34 @@
+*{transition: 1s;}
+
+.div{
+display: flex;
+overflow: hidden;
+width: 100%;
+height: 100%;
+}
+.Ayoub{
+    position: absolute;
+  right: 300px;top: 150px;
+height: 200px;
+width: 200px;
+border-radius: 100px;
+background-color: red;
+cursor: pointer;
+z-index: 999;
+}
+img{
+  height: 200px;width: 200px;border-radius: 0 0 20px 20px;position: absolute;
+}
+.move{
+  position: absolute;right:  150px;top: 30px;height: 100px;width: 100px;
+}
+.movet{height: 100px;width: 100px;}
+ul{margin-top: 150px;position: absolute;right: 400px;z-index: 2;opacity: 0;}
+li{
+  font-size: 25px;
+}
+.teen{
+opacity: 100%;
+right: 150px;
+
+}

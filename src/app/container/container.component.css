@@ -1,0 +1,39 @@
+
+*{transition: 5s;}
+.over {
+    width: 100vw;
+    min-height: 100vh; /* Ensures the container takes up full viewport height */
+    overflow: hidden; /* Keeps content inside */
+    position: relative; /* Position relative to child elements */
+}
+
+app-first-menu {
+    height: 100vh; 
+ right: -8000px;
+    width: 100%;
+    transition: 2s;
+    z-index: 999;
+    overflow: hidden;
+}
+
+app-second-menu {
+    position: relative;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out, background-color 0.5s ease-in-out;
+    overflow: hidden;
+     right: 8000px;
+    height: 100vh; /*  Full height matching viewport */
+}
+.movetwo{
+right: -20px;
+transition: width 0.5s ease-in-out, height 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+app-first-menu {
+    right: 0; /* Ensures it's positioned within the screen initially */
+}
+
+.movetwo {
+    right: 0; /* Bring second-menu into view */
+    transition: right 0.5s ease-in-out; /* Smooth transition */
+    z-index: 999;
+}

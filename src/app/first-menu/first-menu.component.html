@@ -1,0 +1,19 @@
+
+<div class="divo" [ngClass]="{'move':text}" class="m-4 container">
+    <div class="div"></div>
+    
+    
+    <h1 class="navbar-brand" >Ayoub IG</h1>
+    <p class="mt-3" [ngStyle]="{'font-size':'20px'}">
+        a front-end developer experienced in designing and building websites for small and medium sized businesses
+    </p>
+    <ul class="mt-5" *ngFor="let li of l"> <li [ngStyle]="{'font-size':'20px','color':'white'}" >
+        {{li}}
+    </li>
+    </ul>
+    <p class="text-center" [ngStyle]="{'font-size':'20px','color':'yellow'}">And make sure to give you exactly what you want because customer satisfaction is                 important!</p>
+    <div class="align-items-center">
+        <button (click)="onButtonClick()" class="btn btn-warning mb-4">Continue!</button>
+
+    </div>
+    
